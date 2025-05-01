@@ -3,7 +3,6 @@
 This project analyzes the **TransDinarica** bikepacking route using real GPX data.
 
 It provides:
-# TODO
 - 📊 Statistics for each route
 - 📍 Interactive maps
 - 📈 Elevation and distance analysis
@@ -15,30 +14,24 @@ It provides:
 
 ## 📂 Project Structure
 
-| File/Folder                   | Description |
-|:------------------------------|:------------|
-| `transdinarica.ipynb`         | Main Jupyter Notebook for the full analysis |
-| `assets/`                     | Folder containing GPX tracks |
-| `transdinarica_map.html` TODO | Interactive map generated |
-| `plots/` TODO                 | Generated elevation profiles and heatmaps (optional) |
-| `README.md`                   | This file |
+| File/Folder                   | Description                                           |
+|:------------------------------|:------------------------------------------------------|
+| `transdinarica.ipynb`         | Main Jupyter Notebook for the full analysis           |
+| `assets/`                     | Folder containing GPX tracks                          |
+| `results/`                    | Folder which contains results in .csv and .png format |
+| `transdinarica_map.html` TODO | Interactive map generated                             |
+| `plots/` TODO                 | Generated elevation profiles and heatmaps (optional)  |
+| `README.md`                   | This file                                             |
 
 ---
-# TODO
-## 🛠️ How to Run
 
-1. Install required packages:
-
-    ```bash
-    pip install gpxpy folium pandas geopy matplotlib
-    ```
 
 2. Make sure your GPX files are stored in a folder (e.g., `gpx_files/`).
 
 3. Open and run the Jupyter Notebook:
 
     ```bash
-    jupyter notebook Transdinarica_Analysis.ipynb
+    jupyter notebook transdinarica.ipynb
     ```
 
 4. The notebook will:
@@ -93,14 +86,7 @@ It provides:
 - This analysis is highly extensible: you can add weather layers, surface type annotations, or points of interest (POIs) later if needed.
 
 ---
+To clone the repository, use:
+``` git clone https://github.com/elfat-py/transDinaricaRouteAnalysis.git ```
 
-## 📬 Future Improvements
-
-[//]: # TODO ()
-- Cluster analysis for **remote vs urban** challenges
-- Weather API integration for **forecast challenges**
-- Segment-based scoring (per country)
-- Surface roughness detection if detailed GPX is available (trail vs asphalt)
-
----
-
+This project is made for project: [Coweb UET](https://www.cowebproject.eu/) or the official site [Coweb Project](https://uet.edu.al/en/portfolio/coweb/) 🚴‍♂️
